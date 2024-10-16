@@ -4,17 +4,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
-  "tailwindCSS.experimental.configFile": ".nuxt/tailwind.config.cjs",
-  "tailwindCSS.includeLanguages": {
-    "vue": "html"
-  },
-  "tailwindCSS.experimental.classRegex": [
-    [
-      "class:\\s*\"([^\"]*)\"",
-      "class"
-    ]
-  ],
   "editor.quickSuggestions": {
     "strings": true
-  }
+  },
+  "tailwindCSS.includeLanguages": {
+    "*.css": "tailwindcss",
+  },
 }
