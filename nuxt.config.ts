@@ -5,17 +5,22 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxt/fonts',
     '@nuxt/scripts',
+    '@nuxt/test-utils/module',
     '@nuxt/icon',
     '@nuxt/ui',
     '@pinia/nuxt',
     '@vueuse/nuxt',
     'pinia-plugin-persistedstate/nuxt',
     '@nuxtjs/robots',
+    '@nuxtjs/supabase',
   ],
   devtools: { enabled: true },
 
   colorMode: {
     preference: 'light',
+  },
+  runtimeConfig: {
+
   },
   compatibilityDate: '2024-04-03',
   typescript: {
